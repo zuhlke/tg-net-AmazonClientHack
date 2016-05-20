@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" ?>
+<ItemLookupResponse xmlns="http://webservices.amazon.com/AWSECommerceService/2011-08-01">
+  <OperationRequest>
+    <RequestId>56b56354-3322-4abf-b93c-fceed3233676</RequestId>
+    <Arguments>
+      <Argument Name="AWSAccessKeyId" Value="AKIAIDIIGOJHQ7OFDRDQ"></Argument>
+      <Argument Name="AssociateTag" Value="price03f-21"></Argument>
+      <Argument Name="ItemId" Value="1407109081"></Argument>
+      <Argument Name="ItemType" Value="ASIN"></Argument>
+      <Argument Name="Operation" Value="ItemLookup"></Argument>
+      <Argument Name="ResponseGroup" Value="Offers"></Argument>
+      <Argument Name="Service" Value="AWSECommerceService"></Argument>
+      <Argument Name="Timestamp" Value="2016-05-20T15:34:48Z"></Argument>
+      <Argument Name="Signature" Value="8JHZbyO4y3NoktKRPCd7M+xsu9HMQP+IX/21ZNEEN70="></Argument>
+    </Arguments>
+    <RequestProcessingTime>0.0384250000000000</RequestProcessingTime>
+  </OperationRequest>
+  <Items>
+    <Request>
+      <IsValid>True</IsValid>
+      <ItemLookupRequest>
+        <IdType>ASIN</IdType>
+        <ItemId>1407109081</ItemId>
+        <ResponseGroup>Offers</ResponseGroup>
+        <VariationPage>All</VariationPage>
+      </ItemLookupRequest>
+    </Request>
+    <Item>
+      <ASIN>1407109081</ASIN>
+      <OfferSummary>
+        <LowestNewPrice>
+          <Amount>89</Amount>
+          <CurrencyCode>GBP</CurrencyCode>
+          <FormattedPrice>Â£0.89</FormattedPrice>
+        </LowestNewPrice>
+        <LowestUsedPrice>
+          <Amount>1</Amount>
+          <CurrencyCode>GBP</CurrencyCode>
+          <FormattedPrice>Â£0.01</FormattedPrice>
+        </LowestUsedPrice>
+        <LowestCollectiblePrice>
+          <Amount>480</Amount>
+          <CurrencyCode>GBP</CurrencyCode>
+          <FormattedPrice>Â£4.80</FormattedPrice>
+        </LowestCollectiblePrice>
+        <TotalNew>62</TotalNew>
+        <TotalUsed>185</TotalUsed>
+        <TotalCollectible>3</TotalCollectible>
+        <TotalRefurbished>0</TotalRefurbished>
+      </OfferSummary>
+      <Offers>
+        <TotalOffers>1</TotalOffers>
+        <TotalOfferPages>1</TotalOfferPages>
+        <MoreOffersUrl>http://www.amazon.co.uk/gp/offer-listing/1407109081%3FSubscriptionId%3DAKIAIDIIGOJHQ7OFDRDQ%26tag%3Dprice03f-21%26linkCode%3Dxm2%26camp%3D2025%26creative%3D12734%26creativeASIN%3D1407109081</MoreOffersUrl>
+        <Offer>
+          <OfferAttributes>
+            <Condition>New</Condition>
+          </OfferAttributes>
+          <OfferListing>
+            <OfferListingId>4VpdAkeucUaWPdDgfJJPklvMJ3fsUQ7N0yXblhWteBx0cHLQ9vwy2MobnnEOD0zqL3oYZjswVJOa6J9b16KHlxs8dvYtXZf3</OfferListingId>
+            <Price>
+              <Amount>385</Amount>
+              <CurrencyCode>GBP</CurrencyCode>
+              <FormattedPrice>Â£3.85</FormattedPrice>
+            </Price>
+            <AmountSaved>
+              <Amount>414</Amount>
+              <CurrencyCode>GBP</CurrencyCode>
+              <FormattedPrice>Â£4.14</FormattedPrice>
+            </AmountSaved>
+            <PercentageSaved>52</PercentageSaved>
+            <Availability>Usually dispatched within 24 hours</Availability>
+            <AvailabilityAttributes>
+              <AvailabilityType>now</AvailabilityType>
+              <MinimumHours>0</MinimumHours>
+              <MaximumHours>0</MaximumHours>
+            </AvailabilityAttributes>
+            <IsEligibleForSuperSaverShipping>1</IsEligibleForSuperSaverShipping>
+            <IsEligibleForPrime>1</IsEligibleForPrime>
+          </OfferListing>
+        </Offer>
+      </Offers>
+    </Item>
+  </Items>
+</ItemLookupResponse>
